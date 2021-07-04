@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+.header
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(66, 5, 71); */
+    display: flex;
+    position: fixed;
+}
+.logo
+{
+    height: 70px;
+    width: 6%;
+    /* background-color: burlywood; */
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logopic
+{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.logotext
+{
+    height:70px;
+    width:12%;
+    /* background-color: cyan; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 154, 250);
+}
+.nav
+{
+    height: 70px;
+    width:35%;
+    /* background-color: lightskyblue; */
+    margin-left: 600px;
+    display: flex;
+}
+.nav-item
+{
+ height: 70px;
+ width:20%;
+ /* background-color: limegreen; */
+ font-size: 18px;
+ font-family: segoe ui;
+ text-align: center;
+ line-height: 70px;
+ color:rgb(255, 154, 250);;
+ cursor: pointer;
+ transition: 0.5s;
+}
+
+.nav-item:hover
+{
+    color: rgb(208, 255, 0);
+    /* background-color:rgb(255, 154, 250); ; */
+}
+
+/* header end */
+/* banner */
+.banner
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 154, 250);
+    background-image: url(./images/banner.jpg);
+}
+.overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(95, 6, 61, 0.4);
+    display: flex;
+    align-items: center;
+    
+}
+.banner-text
+{
+    height: 300px;
+    width: 38%;
+    background-color: rgba(236, 123, 217, 0.6);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.padd
+{
+    padding:25px ;
+}
+.banner-title
+{
+    font-family: segoe ui;
+    margin-bottom: 20px;
+}
+.banner-btn
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid honeydew;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.banner-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 40, 172);
+}
+
+/* services */
+.services
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(236, 123, 217, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-cont
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color:yellow; */
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service
+{
+    height: 250px;
+    width: 40%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    margin-top: 20px;
+}
+
+.service-img
+{
+    height: 250px;
+    width: 35%;
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    
+}
+.service-detail
+{
+    height: 250px;
+    width: 75%;
+    background-color: rgb(255, 199, 199);
+    display: flex;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.serc-padd
+{
+    padding-left: 6px;
+    padding-top: 20px;
+}
+.serc-btn
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid honeydew;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.serc-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 142, 226);
+}

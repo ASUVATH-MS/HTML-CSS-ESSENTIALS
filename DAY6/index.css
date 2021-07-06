@@ -1,0 +1,469 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+.header
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: rgb(66, 5, 71); */
+    display: flex;
+    position: fixed;
+}
+.logo
+{
+    height: 70px;
+    width: 6%;
+    /* background-color: burlywood; */
+    margin-left: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logopic
+{
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+.logotext
+{
+    height:70px;
+    width:12%;
+    /* background-color: cyan; */
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-weight: bold; */
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 154, 250);
+}
+.nav
+{
+    height: 70px;
+    width:35%;
+    /* background-color: lightskyblue; */
+    margin-left: 600px;
+    display: flex;
+}
+.nav-item
+{
+ height: 70px;
+ width:20%;
+ /* background-color: limegreen; */
+ font-size: 18px;
+ font-family: segoe ui;
+ text-align: center;
+ line-height: 70px;
+ color:rgb(255, 154, 250);;
+ cursor: pointer;
+ transition: 0.5s;
+}
+
+.nav-item:hover
+{
+    color: rgb(208, 255, 0);
+    /* background-color:rgb(255, 154, 250); ; */
+}
+
+/* header end */
+/* banner */
+.banner
+{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 154, 250);
+    background-image: url(./images/banner.jpg);
+}
+.overlay
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(95, 6, 61, 0.4);
+    display: flex;
+    align-items: center;
+    
+}
+.banner-text
+{
+    height: 300px;
+    width: 38%;
+    background-color: rgba(236, 123, 217, 0.6);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.padd
+{
+    padding:25px ;
+}
+.banner-title
+{
+    font-family: segoe ui;
+    margin-bottom: 20px;
+}
+.banner-btn
+{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid honeydew;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.banner-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 40, 172);
+}
+
+/* services */
+.services
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(236, 123, 217, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-cont
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* background-color:yellow; */
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.service
+{
+    height: 250px;
+    width: 40%;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    margin-top: 20px;
+}
+
+.service-img
+{
+    height: 250px;
+    width: 35%;
+    /* background-color: yellow; */
+    overflow: hidden;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    
+}
+.service-detail
+{
+    height: 250px;
+    width: 75%;
+    background-color: rgb(255, 199, 199);
+    display: flex;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.serc-padd
+{
+    padding-left: 6px;
+    padding-top: 20px;
+}
+.serc-btn
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid honeydew;
+    margin-top: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.serc-btn:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(219, 142, 226);
+}
+
+/* css for aboutus */
+.aboutus
+{
+    width: 100%;
+    /* background-color: gray; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    font-family: helvetica;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(160, 18, 89);
+}
+.about-cont
+{
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 35px;
+    color: black;
+}
+
+/* css for highlights */
+.highlights
+{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(253, 199, 249);
+    background-image: url(./images/high-bg.jpg);
+}
+.highlights-cont
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.highlight-in
+{
+    width: 15%;
+    height: 100px;
+    background-color:rgba(243, 0, 252, 0.7);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 134, 215);
+    cursor: pointer;
+    transition: .5s;
+    font-family: helvetica;
+}
+.highlight-in:hover
+{
+    border-radius: 60px;
+    background-color:rgba(200, 233, 123, 0.938);
+    color: rgb(117, 17, 17);
+}
+/* css for intern */
+.intern
+{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.intern-cont
+{
+    width: 90%;
+    height:150px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI';
+}
+.int-btn
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(12, 14, 12);
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.int-btn:hover
+{
+    background-color: black;
+    color: cornsilk;
+}
+/* css for portfolio */
+.portfolio
+{
+    width: 100%;
+    background-color: rgb(204, 248, 248);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center ;
+}
+.port-cont
+{
+    width: 90%;
+    
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.port-in
+{
+    width: 25%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    color: cyan;
+    
+    
+}
+.project
+{
+    width: 100%;
+    height: 75px;
+    background-color:rgba(67, 101, 105, 0.7) ;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 238, 238);
+    font-family:Segoe UI ;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.project:hover
+{
+    height: 160px;
+}
+.project-1
+{
+    background-image: url(https://images.pexels.com/photos/1372008/pexels-photo-1372008.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    
+}
+.project-2
+{
+    background-image: url(https://images.pexels.com/photos/4450334/pexels-photo-4450334.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.project-3
+{
+    background-image: url(https://images.pexels.com/photos/6969774/pexels-photo-6969774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    
+}
+.project-4
+{
+    background-image: url(https://images.pexels.com/photos/1983038/pexels-photo-1983038.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.project-5
+{
+    background-image: url(https://images.pexels.com/photos/4427655/pexels-photo-4427655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.project-6
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3IthB1lAvz2XJhtzhwFCzw7CmD3rSquc4w&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.project-7
+{
+    background-image: url(https://images.pexels.com/photos/163100/circuit-circuit-board-resistor-computer-163100.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+.project-8
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIekw5U1so0AeybIzKKdvp5Dwsbn0Yo2UD0Q&usqp=CAU);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+/* css for footer */
+.footer
+{
+    width: 100%;
+    background-color: rgb(66, 5, 71);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.foot-cont
+{
+    width: 95%;
+    height:200px;
+    /* background-color: cornsilk; */
+    display: flex;
+    justify-content: center;
+}
+.foot-det
+{
+    width: 45%;
+    height: 200px;
+    /* background-color: black; */
+    color: rgb(255, 0, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.foot-logo
+{
+    color: blanchedalmond;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+.foot-pic
+{
+    width:40%;
+    height: 100px;
+    display: flex;
+    border-radius: 40px;
+}
+li 
+{
+    list-style-type: none;
+}
+.first{
+    font-size: 23px;
+}
+.social
+{
+    border-image-width: 50px;
+    height: 50px;
+    background-size: cover;
+}
